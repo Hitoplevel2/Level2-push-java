@@ -1,0 +1,24 @@
+本次接入Demo使用的IDE是IntelliJ IDEA（建议IDE先安装中文汉化包）
+
+1.新建一个Maven项目，名称和位置自定义，Archetype选择添加，组ID自定义，工件ID自定义，版本自定义，目录留空，填入后创建
+
+2.加载完毕后将本目录下src文件夹复制去项目文件夹下
+
+3.将本目录下的pom.txt的代码复制覆盖去项目文件夹下的pom.xml，然后右键，选择Maven-->重新加载项目
+
+4.打开IDE右侧Maven管理，点击刷新，插件会新添加一项protobuf插件，双击打开，然后依次双击选择protobuf:compile和protobuf:compile-custom,生成所有依赖后（第一次生成要等待下载，要依次等待下载），再次刷新（一定要再次刷新，不然Demo有些包认不了）
+
+5.打开目录下的cli\conf文件夹修改proxy.toml文件（可用记事本打开或Notepad++工具打开,根据资料和里面的备注修改）
+
+6.打开目录下的cli\conf文件夹修改log.toml文件,配置日志输出
+
+7.Windows系统下可双击目录下的cli\txtool.exe
+
+8.之后就可以进入项目文件夹\src\main\java\org.Lv2example\Lv2GrpcDemo.java，根据需求运行代码
+
+9.接入之后请密切关注我方发布cli的版本
+
+10.RPC服务器IP和端口请联系我方客服获取
+
+
+请注意，接入成功后请先运行订阅方法订阅股票，再根据订阅多少行情再设置启动对应的线程，如不订阅是没有任何数据返回
