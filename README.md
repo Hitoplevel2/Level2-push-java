@@ -1,9 +1,9 @@
-## Level2行情接口咨询购买
-- QQ：2037696191
-- QQ：3173497610
-- QQ：775018516  
-- 稳定联系方式Skype：Level2.API  
-- 联系邮箱：goLevel2API@gmail.com
+# Hitoplevel2数据行情接口咨询购买
+
+- 稳定联系方式Skype：Hitoplevel2
+- QQ备用：3173497610
+- QQ备用：775018516
+- 邮箱：Hitoplevel2@gmail.com
 #### 备注：如QQ联系不上，可联系稳定沟通方式skype或邮箱，感谢配合
 
 ## 订阅主题
